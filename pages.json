@@ -1,0 +1,96 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "小千音乐",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/mlist/mlist",
+            "style" : {
+                "navigationBarTitleText" : "透明渐变导航栏",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/tslists/tslists",
+            "style" : {
+                "navigationBarTitleText" : "播放列表"
+            }
+        },
+        {
+            "path" : "pages/pm/pm",
+            "style" : {}
+        },
+        {
+            "path" : "pages/mylist/mylist",
+            "style" : {}
+        },
+        {
+            "path" : "pages/seekDetail/seekDetail",
+            "style" : {}
+        },
+        {
+            "path" : "pages/songer/songer",
+            "style" : {
+                "navigationBarTitleText" : "歌手列表"
+            }
+        },
+        {
+            "path" : "pages/songerSing/songerSing",
+            "style" : {}
+        },
+        {
+            "path" : "pages/mvList/mvList",
+            "style" : {
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/playVedio/playVedio",
+            "style" : {
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/seekMv/seekMv",
+            "style" : {}
+        },
+        {
+            "path" : "pages/qqmv/qqmv",
+            "style" : {}
+        },
+        {
+            "path" : "pages/qqpmv/qqpmv",
+            "style" : {
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/qqsmv/qqsmv",
+            "style" : {}
+        },
+        {
+            "path" : "pages/kgsmv/kgsmv",
+            "style" : {}
+        },
+        {
+            "path" : "pages/lenst/lenst",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#333",
+        "backgroundColor" : "#333",
+        "navigationStyle" : "custom"
+    }
+}
